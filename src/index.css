@@ -110,6 +110,15 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  ::-webkit-scrollbar {
+    @apply h-2 w-2;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-foreground/20 
+    rounded-full
+    hover:bg-foreground/30;
+  }
 }
 
 @layer utilities {
