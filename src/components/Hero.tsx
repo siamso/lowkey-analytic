@@ -137,7 +137,7 @@ const Hero = () => {
             style={{ scale }}
           >
             <img
-              className='w-full'
+              className='w-full select-none'
               src={heroBanner}
               height={1468}
               width={815}
